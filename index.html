@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Xuanhao Zhang — Undergraduate researcher in generative models, multimodal learning, and AI for science."
+    />
+    <meta name="theme-color" content="#091321" />
+    <meta property="og:title" content="Xuanhao Zhang | Generative Models & AI" />
+    <meta
+      property="og:description"
+      content="Research in generative models, multimodal learning, and AI for science."
+    />
+    <meta property="og:type" content="website" />
+    <title>Xuanhao Zhang | Generative Models & AI</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Xuanhao Zhang — home">
+        <span class="wordmark-mark">XZ</span>
+        <span>Xuanhao Zhang</span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="mailto:2020230870@stu.cpu.edu.cn">Get in touch <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Computer Science · AI Research</p>
+          <h1>Building generative<br />systems that <em>listen,</em><br />reason, and create.</h1>
+          <p class="hero-lead">
+            I am <strong>Xuanhao Zhang</strong>, an undergraduate researcher interested in
+            generative models, multimodal learning, and AI for scientific research.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#research">Explore my work <span>↓</span></a>
+            <a class="button button-secondary" href="https://github.com/Dynemicin-A" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Abstract generative model visualization">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="orb orb-three"></div>
+          <div class="orb orb-four"></div>
+          <svg viewBox="0 0 580 580" role="img" aria-hidden="true">
+            <defs>
+              <linearGradient id="line-gradient" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#f6b858" stop-opacity=".98" />
+                <stop offset="100%" stop-color="#f36443" stop-opacity=".56" />
+              </linearGradient>
+            </defs>
+            <path class="signal signal-one" d="M-30 360 C80 270 114 428 226 329 S374 178 610 234" />
+            <path class="signal signal-two" d="M-20 281 C104 381 164 175 298 269 S430 388 617 278" />
+            <path class="signal signal-three" d="M-23 179 C97 94 185 279 272 180 S455 88 602 153" />
+            <path class="signal signal-four" d="M26 485 C154 372 245 509 339 397 S482 316 582 381" />
+            <circle class="node n-one" cx="226" cy="329" r="6" />
+            <circle class="node n-two" cx="298" cy="269" r="8" />
+            <circle class="node n-three" cx="339" cy="397" r="5" />
+            <circle class="node n-four" cx="460" cy="229" r="5" />
+          </svg>
+          <div class="art-label art-label-top"><span>latent space</span><b>01</b></div>
+          <div class="art-label art-label-bottom"><span>signal / context</span><b>∞</b></div>
+        </div>
+        <a class="scroll-cue" href="#research"><span>Scroll to explore</span><i></i></a>
+      </section>
+
+      <section id="research" class="research section-shell">
+        <div class="section-intro">
+          <p class="eyebrow"><span></span> Selected research</p>
+          <h2>Making complex<br /><em>conditions</em> useful.</h2>
+          <p>
+            My work focuses on the interaction between a generative model and its
+            conditioning signal: choosing the right guidance, adapting across stages,
+            and measuring quality with care.
+          </p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card featured-card">
+            <div class="project-number">01</div>
+            <div class="project-content">
+              <p class="project-type">Diffusion models · 2025</p>
+              <h3>Prompt-aware classifier-free guidance</h3>
+              <p>
+                Developed an adaptive guidance-selection approach for diffusion models
+                that improves conditional alignment while reducing oversaturation.
+                Evaluated on MSCOCO 2014 and AudioCaps.
+              </p>
+              <div class="project-meta">
+                <span>Text / image</span><span>Text / audio</span><span>Adaptive CFG</span>
+              </div>
+              <a class="text-link" href="https://arxiv.org/abs/2509.22728" target="_blank" rel="noreferrer">Read preprint <span>↗</span></a>
+            </div>
+            <div class="card-art cfg-art" aria-hidden="true">
+              <div class="cfg-ring ring-a"></div><div class="cfg-ring ring-b"></div><div class="cfg-ring ring-c"></div>
+              <div class="cfg-path"></div><div class="cfg-dot dot-a"></div><div class="cfg-dot dot-b"></div>
+              <span>p(prompt)</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <div class="project-content">
+              <p class="project-type">Audio generation · 2026</p>
+              <h3>Stage-adaptive audio diffusion</h3>
+              <p>
+                Investigated stage-aware training for audio diffusion under
+                heterogeneous conditioning regimes, targeting better convergence and
+                generation quality for text-to-audio and audio super-resolution.
+              </p>
+              <div class="project-meta">
+                <span>Audio diffusion</span><span>Super-resolution</span><span>Multimodal</span>
+              </div>
+              <a class="text-link" href="https://arxiv.org/abs/2605.04547" target="_blank" rel="noreferrer">Read preprint <span>↗</span></a>
+            </div>
+            <div class="card-art audio-art" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              <span>t → 0</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="highlights" class="highlights">
+        <div class="section-shell highlights-inner">
+          <div class="section-intro light-intro">
+            <p class="eyebrow"><span></span> Beyond research</p>
+            <h2>Learning through<br /><em>real constraints.</em></h2>
+          </div>
+          <div class="highlight-grid">
+            <article class="highlight-card">
+              <p class="highlight-index">01 / Competition</p>
+              <div class="medal-mark">K</div>
+              <h3>Kaggle Silver Medal</h3>
+              <p>60th of 3,325 teams in CIBMTR — Equity in Post-HCT Survival Predictions, with a focus on fair survival modeling across patient groups.</p>
+            </article>
+            <article class="highlight-card">
+              <p class="highlight-index">02 / Systems</p>
+              <div class="medal-mark">ASC</div>
+              <h3>ASC Second Prize</h3>
+              <p>World University Supercomputer Competition, 2026. Led technical coordination, result verification, materials organization, and submission.</p>
+            </article>
+            <article class="highlight-card skills-card">
+              <p class="highlight-index">03 / Toolkit</p>
+              <h3>Languages & foundations</h3>
+              <ul>
+                <li><b>Python</b><span>5 years</span></li>
+                <li><b>C</b><span>2 years</span></li>
+                <li><b>Generative AI</b><span>Diffusion & multimodal</span></li>
+                <li><b>HPC workflows</b><span>Competition experience</span></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section-shell">
+        <div class="about-stamp" aria-hidden="true">
+          <span>XZ</span><span>XZ</span><span>XZ</span><span>XZ</span>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow"><span></span> About</p>
+          <h2>Curious about the<br /><em>shape of intelligence.</em></h2>
+          <p>
+            I am pursuing a B.E. at China Pharmaceutical University (expected 2027).
+            I enjoy turning open-ended research questions into careful experiments,
+            reproducible code, and clear results — especially where generative AI meets
+            scientific problems.
+          </p>
+          <p>
+            Open to research conversations, collaboration, and opportunities in machine
+            learning, generative modeling, and AI systems.
+          </p>
+          <a class="button button-primary" href="mailto:2020230870@stu.cpu.edu.cn">Start a conversation <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <p>© <span id="year"></span> Xuanhao Zhang</p>
+      <div>
+        <a href="https://github.com/Dynemicin-A" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a href="mailto:2020230870@stu.cpu.edu.cn">Email ↗</a>
+      </div>
+      <p class="footer-note">Nanjing, China · Generative models & AI</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
