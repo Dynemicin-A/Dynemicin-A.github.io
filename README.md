@@ -1,6 +1,6 @@
 # Xuanhao Zhang — Personal Site
 
-A static GitHub Pages portfolio focused on generative models, multimodal learning, machine learning competitions, and AI systems.
+A conventional academic GitHub Pages profile focused on generative models, multimodal learning, machine learning competitions, and AI systems.
 
 ## Local preview
 
