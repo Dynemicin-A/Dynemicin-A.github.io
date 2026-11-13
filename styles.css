@@ -36,6 +36,11 @@ h3 a { color: var(--link); }
 .research-item { display: grid; grid-template-columns: 3.3rem minmax(0, 1fr); gap: 1.15rem; }
 .research-item + .research-item { margin-top: 1.9rem; }
 .year { color: var(--muted); font-size: .875rem; line-height: 1.75; font-variant-numeric: tabular-nums; }
+.research-status { margin-top: -.8rem; color: var(--muted); font-size: .875rem; }
+.research-directions { margin-top: 1.25rem; }
+.direction-item + .direction-item { margin-top: 1.3rem; }
+.direction-item p { margin-top: .35rem; }
+.experience-item + .experience-item { margin-top: 1.9rem; }
 .authors { margin-top: .3rem; font-size: .9375rem; }
 .item-meta { margin-top: .15rem; color: var(--muted); font-size: .875rem; }
 .item-body > p:not(.item-meta):not(.authors) { margin-top: .6rem; }
@@ -65,7 +70,7 @@ footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .2
   .profile { padding-top: 2.5rem; padding-bottom: 1.1rem; }
   h1 { font-size: 2.4rem; }
   .bio { margin-top: 1.3rem; }
-  .section-nav { column-gap: 1.3rem; }
+  .section-nav { column-gap: .75rem; }
   .section { padding-top: 2.2rem; }
   h2 { font-size: 1.5rem; margin-bottom: 1.2rem; }
   .research-item, .award-list > li { grid-template-columns: 1fr; gap: .35rem; }
@@ -80,6 +85,6 @@ footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .2
   .profile { padding-top: 0; }
   .section-nav, .skip-link, footer { display: none; }
   .section { padding-top: 1.5rem; }
-  .research-item, .experience-item, .award-list > li { break-inside: avoid; }
+  .research-item, .direction-item, .experience-item, .award-list > li { break-inside: avoid; }
   a { color: inherit; }
 }
